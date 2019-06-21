@@ -1,5 +1,8 @@
 """
-Given a sorted list and an input number as inputs, write a function to return a Range object, consisting of the indices of the first and last occurrences of the input number in the list. Check out the Use Me section to examine the structure of the Range class.
+Given a sorted list and an input number as inputs, write a function to return a Range object, consisting of the indices of the first 
+and last occurrences of the input number in the list. 
+
+Check out the Use Me section to examine the structure of the Range class.
 
 Note: The List can have duplicate numbers. The indices within the Range object should be zero based.
 
