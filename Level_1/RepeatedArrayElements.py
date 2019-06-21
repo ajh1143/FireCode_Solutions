@@ -8,7 +8,7 @@ duplicate_items([1, 3, 4, 2, 1]) => [1]
 duplicate_items([1, 3, 4, 2, 1, 2, 4]) => [1, 2, 4]
 """
 
-```Python3
+
 def duplicate_items(list_numbers):
     holder = {}
     for each_element in list_numbers:
@@ -17,4 +17,4 @@ def duplicate_items(list_numbers):
             holder[each_element] = element_count
     solution = list(holder.keys())
     return solution
-```
+
