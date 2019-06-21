@@ -12,9 +12,9 @@ Modified to :
 0 1              
 0 1
 """
-```Python3
+
 def flip_vertical_axis(matrix):
     for _ in matrix:
         _.reverse()
     return matrix
-```
+
