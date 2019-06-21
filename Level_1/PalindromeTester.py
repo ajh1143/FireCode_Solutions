@@ -11,11 +11,11 @@ is_palindrome("race car") -> False
 is_palindrome("") -> True
 """
 
-```Python3
+
 def is_palindrome(input_string):
     reversed_string = input_string[::-1]
     if input_string == reversed_string:
         return True
     else:
         return False
-```
+
