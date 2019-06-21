@@ -6,9 +6,9 @@ Example:
 input_list: [1, 2, 4, 5, 6, 7, 8, 9, 10]
 find_missing_number(input_list) => 3
 """
-```Python3
+
 def find_missing_number(list_numbers):
     ranger = list(range(1,11))
     solution = [int(x) for x in ranger if x not in list_numbers]
     return solution[0]
-```
+
